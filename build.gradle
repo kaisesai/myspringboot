@@ -32,10 +32,17 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-web')
-    compile ('org.projectlombok:lombok')
-    compile ('com.google.guava:guava:25.1-jre')
-    compile ('org.apache.commons:commons-lang3:3.7')
-    compile ('redis.clients:jedis')
+    compile('org.projectlombok:lombok')
+    compile('com.google.guava:guava:25.1-jre')
+    compile('org.apache.commons:commons-lang3:3.7')
+    compile('redis.clients:jedis')
     runtime('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile("org.springframework.boot:spring-boot-starter-security")
+//    configurations {
+//        all*.exclude group:'org.springframework.boot',
+//                module:'spring-boot-starter-logging'
+//    }
+    compile("org.springframework.boot:spring-boot-starter-log4j")
+
 }

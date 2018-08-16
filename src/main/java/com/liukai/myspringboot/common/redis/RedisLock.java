@@ -1,4 +1,4 @@
-package com.liukai.myspringboot.redis;
+package com.liukai.myspringboot.common.redis;
 
 import lombok.Data;
 import org.apache.commons.lang3.RandomStringUtils;

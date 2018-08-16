@@ -1,8 +1,6 @@
-package com.liukai.myspringboot.redis;
+package com.liukai.myspringboot.common.redis;
 
-import com.google.common.collect.Collections2;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.commons.lang3.RandomUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
